@@ -16,7 +16,7 @@ Before running this project, ensure you have:
 
 1. Clone the repository:
    
-   git clone https://github.com/your-username/google-genai-text-generator.git
+   git clone https://github.com/prajjaldhar/GenAi_in_Js.git
    cd google-genai-text-generator
   
 

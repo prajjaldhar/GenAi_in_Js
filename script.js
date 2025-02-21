@@ -1,5 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const genai = new GoogleGenerativeAI("AIzaSyBsLhqJuPlLWsJUKWxYu6k1S1KNhdm7Kl0");
+const genai = new GoogleGenerativeAI("");
 async function generateText(prompt) {
   const model = genai.getGenerativeModel({ model: "gemini-pro" });
   const result = await model.generateContent(prompt);
